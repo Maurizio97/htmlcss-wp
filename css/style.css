@@ -163,11 +163,11 @@ li {
 
 
 /* aside general*/
-.testo-aside h4{
+.testo-aside h4 {
     margin: 18px 0;
 }
 
-.testo-aside p{
+.testo-aside p {
     color: grey;
 }
 /* /aside general*/
@@ -190,12 +190,26 @@ li {
     height: 150px;
     border-radius: 10px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 /* /aside right */
 
 
 /* middle section */
+#img-middle-section {
+    background-image: url(../img/banner-2.jpg);
+    height: 150px;
+    border-radius: 10px;
+    object-fit: fill;
+}
+
+.testo-middle h4 {
+    margin: 18px 0;
+}
+
+.testo-middle p {
+    color: grey;
+}
 /* /middle section */
 
 
