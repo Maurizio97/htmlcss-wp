@@ -30,9 +30,6 @@ header {
 
 .nav_jumbotron {   
     margin: 15px 0;
-    height: 400px;
-    /* regole degug */
-    background-color: goldenrod;
 }
 
 main {
@@ -129,11 +126,24 @@ li {
 /* /nav */
 
 /* jumbotron */
-/* #jumbotron {
+#jumbotron {
     width: 100%;
-    height: 400px;
+    height: 420px;
     background-image: url(../img/banner.jpg);
     object-fit: cover;
-} */
+    background-size: 80%;
+    background-position: center ;
+    margin: 30px 0 20px;
+    border-radius: 10px;
+}
+
+.layover {
+    background-color: rgba(75, 75, 75, 0.4);
+    height: 100%;
+}
+
+#testo-jumbotron {
+
+}
 
 
