@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#centratura {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 10px 0;
+    height: 120px;
+    /* regole degug */
+    background-color: rgb(216, 106, 124);
+}
+
+.nav_jumbotron {   
+    margin: 15px 0;
+    height: 400px;
+    /* regole degug */
+    background-color: goldenrod;
+}
+
+main {
+    margin: 15px 0;
+    /* regole degug */
+    background-color: blue;
+}
+
+#titolo-main {
+    height: 50px;
+    /* regole degug */
+    background-color: lightblue;
+}
+
+aside {   
+    margin: 2% 0 2%;
+    width: 15%;
+    /* regole degug */
+    background-color: lightblue;
+    height: 300px;
+    float: left;
+}
+
+section {
+    width: 66%;
+    margin: 2% 2% 2%;
+    /* regole degug */
+    background-color: lightblue;
+    height: 300px;
+    float: left;
+}
+
+footer {
+    margin: 15px 0;
+    height: 70px;
+    /* regole degug  */
+    background-color: blueviolet;
+} 
+ 
