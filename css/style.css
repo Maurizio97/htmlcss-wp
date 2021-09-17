@@ -77,8 +77,8 @@ footer {
 #container-logo {
     border-right: solid 1px grey;
     height: 60px;
-    width: 15%;
-    padding-right: 5px;
+    width: 13.3%;
+    
 }
 
 #container-logo img {
@@ -119,8 +119,6 @@ li {
     list-style-type: none;   
 }
 
-
-
 #menu-item5 #shop:target {
     display: block;
 }
@@ -128,6 +126,14 @@ li {
 #menu-item6 #contact:target {
     display: block;
 }
+/* /nav */
 
+/* jumbotron */
+/* #jumbotron {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+    object-fit: cover;
+} */
 
 
