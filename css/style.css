@@ -34,8 +34,6 @@ header {
 
 main {
     margin: 15px 0;
-    /* regole degug */
-    background-color: blue;
 }
 
 #titolo-main {
@@ -46,18 +44,12 @@ main {
 aside {   
     margin: 2% 0 2%;
     width: 15%;
-    /* regole degug */
-    background-color: lightblue;
-    height: 300px;
-    float: left;
+    float: left
 }
 
 section {
     width: 66%;
     margin: 2% 2% 2%;
-    /* regole degug */
-    background-color: lightblue;
-    height: 300px;
     float: left;
 }
 
@@ -171,6 +163,15 @@ li {
 
 
 /* aside left */
+#img-aside-left {
+    background-image: url(../img/img-1.jpg);
+    height: 150px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: contain;
+}
+
+
 /* aside left */
 
 
