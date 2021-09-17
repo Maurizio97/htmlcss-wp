@@ -126,7 +126,7 @@ li {
 /* /nav */
 
 /* jumbotron */
-#jumbotron {
+#img-jumbotron {
     width: 100%;
     height: 420px;
     background-image: url(../img/banner.jpg);
@@ -140,10 +140,23 @@ li {
 .layover {
     background-color: rgba(75, 75, 75, 0.4);
     height: 100%;
+    position: relative;
+    border-radius: 10px;
 }
 
 #testo-jumbotron {
-
+    color: white;
+    position: absolute;
+    left: 45px;
+    bottom: 65px;
+    width: 50%;
 }
+
+#testo-jumbotron h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+/* /jumbotron */
+
 
 
