@@ -17,7 +17,7 @@ body {
 }
 
 #centratura {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -72,6 +72,7 @@ footer {
     background-color: blueviolet;
 } 
  
+
 /* header */
 #container-logo {
     border-right: solid 1px grey;
@@ -79,7 +80,54 @@ footer {
     width: 15%;
     padding-right: 5px;
 }
+
 #container-logo img {
     height: 60px;
-
 }
+/* /header */
+
+
+/* nav */
+.menu {
+    padding: 0px 50px 0px 0px;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.sotto-menu {
+    display: none;
+    position: absolute;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-size: 20px;
+    color: grey;
+}
+
+.sotto-menu-item > a {
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 0px;
+    color: dimgrey;
+}
+
+li {
+    list-style-type: none;   
+}
+
+
+
+#menu-item5 #shop:target {
+    display: block;
+}
+
+#menu-item6 #contact:target {
+    display: block;
+}
+
+
+
