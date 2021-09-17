@@ -200,7 +200,9 @@ li {
     background-image: url(../img/banner-2.jpg);
     height: 150px;
     border-radius: 10px;
-    object-fit: fill;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 60%;
 }
 
 .testo-middle h4 {
