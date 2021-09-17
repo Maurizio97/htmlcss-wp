@@ -65,14 +65,11 @@ footer {
  
 
 /* header */
-#container-logo {
+ header img {
     border-right: solid 1px grey;
     height: 60px;
-    width: 13.3%;   
-}
-
-#container-logo img {
-    height: 60px;
+    width: 13.3%;  
+    padding-right: 1.5%; 
 }
 /* /header */
 
