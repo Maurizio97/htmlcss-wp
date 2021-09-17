@@ -63,8 +63,6 @@ section {
 footer {
     margin: 15px 0;
     height: 70px;
-    /* regole degug  */
-    background-color: blueviolet;
 } 
  
 
@@ -215,4 +213,14 @@ li {
 /* /middle section */
 
 
+/* footer */
+footer {
+    text-align: center;
+}
 
+footer span::after {
+    content: "\2764";
+    color: red;
+    font-size: 20px;
+}
+/* /footer */
