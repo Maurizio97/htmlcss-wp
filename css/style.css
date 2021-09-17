@@ -39,9 +39,8 @@ main {
 }
 
 #titolo-main {
-    height: 50px;
-    /* regole degug */
-    background-color: lightblue;
+    height: 70px;
+    margin: 30px 0;
 }
 
 aside {   
@@ -157,6 +156,18 @@ li {
     font-weight: normal;
 }
 /* /jumbotron */
+
+
+/* titolo main */
+#titolo-main h2 {
+    font-size: 35px;
+}
+
+#titolo-main span {
+    font-size: 15px;
+    color: gray;
+}
+/* /titolo main */
 
 
 
