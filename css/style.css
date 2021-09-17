@@ -31,8 +31,6 @@ body {
 header {   
     margin: 0px;
     height: 80px;
-    /* regole degug */
-   /*  background-color: rgb(216, 106, 124); */
 }
 
 .nav_jumbotron {   
@@ -70,8 +68,7 @@ footer {
 #container-logo {
     border-right: solid 1px grey;
     height: 60px;
-    width: 13.3%;
-    
+    width: 13.3%;   
 }
 
 #container-logo img {
@@ -120,6 +117,7 @@ li {
     display: block;
 }
 /* /nav */
+
 
 /* jumbotron */
 #img-jumbotron {
