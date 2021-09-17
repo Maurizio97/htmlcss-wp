@@ -21,6 +21,13 @@ body {
     margin: 0 auto;
 }
 
+.layover {
+    background-color: rgba(75, 75, 75, 0.4);
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
 header {   
     margin: 0px;
     height: 80px;
@@ -128,13 +135,6 @@ li {
     border-radius: 10px;
 }
 
-.layover {
-    background-color: rgba(75, 75, 75, 0.4);
-    height: 100%;
-    position: relative;
-    border-radius: 10px;
-}
-
 #testo-jumbotron {
     color: white;
     position: absolute;
@@ -162,6 +162,17 @@ li {
 /* /titolo main */
 
 
+/* aside general*/
+.testo-aside h4{
+    margin: 18px 0;
+}
+
+.testo-aside p{
+    color: grey;
+}
+/* /aside general*/
+
+
 /* aside left */
 #img-aside-left {
     background-image: url(../img/img-1.jpg);
@@ -170,17 +181,22 @@ li {
     background-position: center;
     background-size: contain;
 }
-
-
-/* aside left */
+/* /aside left */
 
 
 /* aside right */
-/* aside right */
+#img-aside-right {
+    background-image: url(../img/img-3.jpg);
+    height: 150px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: contain;
+}
+/* /aside right */
 
 
 /* middle section */
-/* middle section */
+/* /middle section */
 
 
 
